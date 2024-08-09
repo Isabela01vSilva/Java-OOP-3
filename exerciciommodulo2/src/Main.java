@@ -19,5 +19,8 @@ public class Main {
         for (Produto produto : listaDoMercado) {
             System.out.println(produto);
         }
+
+        ProdutoPercivel produto4 = new ProdutoPercivel("Carne", 90.50, 2, "25/09/2024");
+        System.out.println(produto4);
     }
 }
